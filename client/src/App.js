@@ -1,7 +1,7 @@
-// import React, { useReducer } from 'react';
-// import {routes, Route } from 'react-router-dom';
-// import { AppContext, initAppObject } from './store/appContext';
-// import appReducer from './store/appReducer';
+import React, { useReducer } from 'react';
+import {routes, Route } from 'react-router-dom';
+import { AppContext, initAppObject } from './store/appContext';
+import appReducer from './store/appReducer';
 import Captions from './pagecomponents/Captions';
 import './App.css';
 

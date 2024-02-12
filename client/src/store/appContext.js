@@ -1,9 +1,9 @@
-// import { createContext } from 'react';
+import { createContext } from 'react';
 
-// export const AppContext = createContext(null);
+export const AppContext = createContext(null);
 
-// export const initAppObject = {
-//   users: [],
-//   captions: [],
-//   defaultLL: null,
-// };
+export const initAppObject = {
+  users: [],
+  captions: [],
+  defaultLL: null,
+};
