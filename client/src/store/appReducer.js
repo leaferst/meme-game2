@@ -3,7 +3,7 @@ export const appReducer = (state, action) => {
   let {type,payload} = action;
 
   switch(type) {
-    case '':
+    case 'loadCaptions':
       newState.captions = payload;
       break;
   };
